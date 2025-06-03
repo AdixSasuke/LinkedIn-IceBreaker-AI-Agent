@@ -1,0 +1,8 @@
+langchain>=0.3.25
+langchain-community>=0.3.24
+langchain-google-genai>=2.0.5
+langchain-core>=0.3.62
+langchainhub>=0.1.21
+requests>=2.31.0
+python-dotenv>=1.0.0
+black>=25.1.0
