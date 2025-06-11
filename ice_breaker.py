@@ -18,7 +18,7 @@ if __name__ == "__main__":
     llm = ChatGoogleGenerativeAI(model="gemini-1.5-flash", google_api_key=google_api_key)
 
     chain = summary_prompt_template | llm | simple_parser
-    linkedin_data = scrape_linkedin_profile(linkedin_profile_url="https://www.linkedin.com/in/khandelwalchhavi/")
+    linkedin_data = scrape_linkedin_profile(linkedin_profile_url="https://www.linkedin.com/in/adityakhandelwal9/")
     res = chain.invoke(input={"information": linkedin_data})
 
     print(res)
