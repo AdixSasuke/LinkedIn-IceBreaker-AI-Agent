@@ -37,7 +37,7 @@ Before running the application, you'll need to obtain API keys for:
 1. **Clone the repository:**
 
     ```bash
-    git clone <repository-url>
+    git clone https://github.com/AdixSasuke/LinkedIn-IceBreaker-AI-Agent
     cd ice_breaker
     ```
 
